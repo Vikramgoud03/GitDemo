@@ -19,7 +19,7 @@ import pytest
 @pytest.mark.smoke
 #@pytest.mark.skip
 def test_firstProgram():
-    msg = "Hello Vikram working on GIT" #operations
+    msg = "Hello Vikram working on GIT develop branch" #operations
     assert msg == "Hi", "Test failed because strings do not match"
 
 
